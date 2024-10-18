@@ -98,7 +98,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, sigue 
 
 ## Créditos
 
-- **Tu Nombre** - Autor original del proyecto.
+- **RonaldRamos** - Autor original del proyecto.
 - [Enlace a tu perfil de GitHub](https://github.com/ronaldbit)
 
 ## Contacto
