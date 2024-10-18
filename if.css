@@ -1,0 +1,495 @@
+/*!
+ * Icons Font by @ronaldbit - https://icons.ronaldbit.com
+ * License - https://icons.ronaldbit.com/license (Commercial License)
+ * Copyright 2024 Fonticons, Inc.
+ */
+
+@font-face {
+    font-family: "Icons Font";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url('fonts/if-solid-900.woff2') format("woff2"), url('fonts/if-solid-900.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Icons Font Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url('fonts/if-regular-400.woff2') format("woff2"), url('fonts/if-regular-400.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Icons Font Solid";
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url('fonts/if-solid-900.woff2') format("woff2"), url('fonts/if-solid-900.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Icons Font Light";
+    font-style: normal;
+    font-weight: 300;
+    font-display: block;
+    src: url('fonts/if-light-300.woff2') format("woff2"), url('fonts/if-light-300.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Icons Font Thin";
+    font-style: normal;
+    font-weight: 100;
+    font-display: block;
+    src: url('fonts/if-thin-100.woff2') format("woff2"), url('fonts/if-thin-100.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Icons Font Brands";
+    font-style: normal;
+    font-weight: 100;
+    font-display: block;
+    src: url('fonts/if-brands-400.woff2') format("woff2"), url('fonts/if-thin-100.ttf') format("truetype");
+}
+
+
+:root {
+    --if-font: normal 400 1em/1 "Icons Font";
+    --if-font-light: normal 300 1em/1 "Icons Font Light";
+    --if-font-regular: normal 400 1em/1 "Icons Font Regular";
+    --if-font-solid: normal 900 1em/1 "Icons Font Solid";
+    --if-font-thin: normal 100 1em/1 "Icons Font Thin";
+
+    --spacing-base: 1em;
+    --spacing-0: 0;
+    --spacing-1: calc(var(--spacing-base) * 1 / 16);
+    --spacing-1px: 1px;
+    --spacing-7xs: calc(var(--spacing-base) * 1 / 16);
+    --spacing-6xs: calc(var(--spacing-base) * 2 / 16);
+    --spacing-5xs: calc(var(--spacing-base) * 3 / 16);
+    --spacing-4xs: calc(var(--spacing-base) * 4 / 16);
+    --spacing-3xs: calc(var(--spacing-base) * 6 / 16);
+    --spacing-2xs: calc(var(--spacing-base) * 8 / 16);
+    --spacing-xs: calc(var(--spacing-base) * 10 / 16);
+    --spacing-sm: calc(var(--spacing-base) * 12 / 16);
+    --spacing-md: calc(var(--spacing-base) * 1);
+    --spacing-lg: calc(var(--spacing-base) * 1.25);
+    --spacing-xl: calc(var(--spacing-base) * 1.5);
+    --spacing-2xl: calc(var(--spacing-base) * 2);
+    --spacing-3xl: calc(var(--spacing-base) * 2.5);
+    --spacing-4xl: calc(var(--spacing-base) * 3);
+    --spacing-5xl: calc(var(--spacing-base) * 4);
+    --spacing-6xl: calc(var(--spacing-base) * 5);
+    --spacing-7xl: calc(var(--spacing-base) * 6);
+    --spacing-8xl: calc(var(--spacing-base) * 8);
+    --spacing-9xl: calc(var(--spacing-base) * 10);
+    --spacing-10xl: calc(var(--spacing-base) * 12);
+    --spacing-11xl: calc(var(--spacing-base) * 16);
+    --spacing-12xl: calc(var(--spacing-base) * 20);
+
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+
+    --if-style-family: "Icons Font";
+    --if-style: 700;
+    --if-display: block;
+}
+
+:is(i[class*="if-"], .svg-inline--if) {
+    --spacing-inline: var(--spacing-6xs);
+}
+
+.if {
+    font-family: var(--if-style-family);
+    font-weight: var(--if-style);
+}
+
+.if, .if-brands, .if-classic, .if-duotone, .if-light, .if-regular, .if-sharp, .if-sharp-duotone, .if-sharp-solid, .if-solid, .if-thin, .ifb, .ifd, .ifl, .ifr, .ifs, .ifds, .ift {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--if-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+   
+.if-brands,.ifb {
+    font-family: "Icons Font Brands";
+    font-weight: 400;
+}
+
+.if-regular, .ifr {
+    font-family: "Icons Font Regular";
+    font-weight: 400;
+}
+
+.if-solid, .ifs {
+    font-family: "Icons Font Solid";
+    font-weight: 900;
+}
+
+.if-light, .ifl {
+    font-family: "Icons Font Light";
+    font-weight: 300;
+}
+
+.if-thin, .ift {
+    font-family: "Icons Font Thin";
+    font-weight: 100;
+}
+ 
+
+/* --- Icon Colors --- */
+.if-color-red { color: red; } 
+.if-color-blue { color: blue; } 
+.if-color-green { color: green; } 
+.if-color-yellow { color: yellow; } 
+.if-color-orange { color: orange; } 
+.if-color-purple { color: purple; } 
+.if-color-pink { color: pink; } 
+.if-color-brown { color: brown; } 
+.if-color-gray { color: gray; } 
+.if-color-black { color: black; } 
+.if-color-white { color: white; } 
+.if-color-lightblue { color: lightblue; } 
+.if-color-lightgreen { color: lightgreen; } 
+.if-color-darkblue { color: darkblue; } 
+.if-color-darkgreen { color: darkgreen; } 
+.if-color-gold { color: gold; } 
+.if-color-silver { color: silver; } 
+.if-color-cyan { color: cyan; } 
+.if-color-magenta { color: magenta; } 
+.if-color-teal { color: teal; } 
+.if-color-olive { color: olive; }
+
+.if-color-success { color: #28a745; } 
+.if-color-danger { color: #dc3545; } 
+.if-color-warning { color: #ffc107; } 
+.if-color-info { color: #17a2b8; } 
+.if-color-light { color: #f8f9fa; } 
+.if-color-dark { color: #343a40; } 
+.if-color-primary { color: #007bff; } 
+.if-color-secondary { color: #6c757d; } 
+.if-color-muted { color: #6c757d; } 
+.if-color-link { color: #007bff; text-decoration: none; } 
+.if-color-link:hover { text-decoration: underline; }
+
+.fa-inverse {
+    color: var(--fa-inverse,#fff)
+}
+
+.if-color-by {
+    -webkit-color: var(--if-color);
+    -ms-color: var(--if-color);
+    color: var(--if-color);
+}
+
+/* --- Icon Rotation --- */
+.if-rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.if-rotate-180 {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.if-rotate-270 {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.if-rotate-by {
+    -webkit-transform: rotate(var(--if-rotate-angle, 0));
+    -ms-transform: rotate(var(--if-rotate-angle, 0));
+    transform: rotate(var(--if-rotate-angle, 0));
+}
+
+/* --- Icon Sizes --- */
+.if-1x { font-size: 1em; }
+.if-2x { font-size: 2em; }
+.if-3x { font-size: 3em; }
+.if-4x { font-size: 4em; }
+.if-5x { font-size: 5em; }
+.if-6x { font-size: 6em; }
+.if-7x { font-size: 7em; }
+.if-8x { font-size: 8em; }
+.if-9x { font-size: 9em; }
+.if-10x { font-size: 10em; }
+
+.if-2xs {
+    font-size: .625em;
+    line-height: .1em;
+    vertical-align: .225em;
+}
+
+.if-xs {
+    font-size: .75em;
+    line-height: .08333em;
+    vertical-align: .125em;
+}
+
+.if-sm {
+    font-size: .875em;
+    line-height: .07143em;
+    vertical-align: .05357em;
+}
+
+.if-lg {
+    font-size: 1.25em;
+    line-height: .05em;
+    vertical-align: -.075em;
+}
+
+.if-xl {
+    font-size: 1.5em;
+    line-height: .04167em;
+    vertical-align: -.125em;
+}
+
+.if-2xl {
+    font-size: 2em;
+    line-height: .03125em;
+    vertical-align: -.1875em;
+}
+
+.if-size-by {
+    -webkit-font-size: var(--if-size);
+    -ms-font-size: var(--if-size);
+    font-size: var(--if-size);
+}
+
+
+/* --- Icon Flip Transformations --- */
+.if-flip-horizontal {
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.if-flip-vertical {
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.if-flip-both,.if-flip-horizontal.if-flip-vertical {
+    transform: scale(-1);
+}
+
+/**Margen**/
+.if-pull-left {
+    float: left;
+    margin-right: var(--if-pull-margin,.3em);
+}
+
+.if-pull-right {
+    float: right;
+    margin-left: var(--if-pull-margin,.3em);
+}
+
+/**animation*/
+.if-beat {
+    animation-name: if-beat;
+    animation-delay: var(--fa-animation-delay,0s);
+    animation-direction: var(--fa-animation-direction,normal);
+    animation-duration: var(--fa-animation-duration,1s);
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,ease-in-out);
+}
+
+.if-bounce {
+    animation-name: if-bounce;
+    animation-delay: var(--fa-animation-delay,0s);
+    animation-direction: var(--fa-animation-direction,normal);
+    animation-duration: var(--fa-animation-duration,1s);
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,cubic-bezier(.28,.84,.42,1));
+}
+
+.if-fade {
+    animation-name: if-fade;
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));
+}
+
+.if-beat-fade,.if-fade {
+    animation-delay: var(--fa-animation-delay,0s);
+    animation-direction: var(--fa-animation-direction,normal);
+    animation-duration: var(--fa-animation-duration,1s);
+}
+
+.if-beat-fade {
+    animation-name: if-beat-fade;
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,cubic-bezier(.4,0,.6,1));
+}
+
+.if-flip {
+    animation-name: if-flip;
+    animation-delay: var(--fa-animation-delay,0s);
+    animation-direction: var(--fa-animation-direction,normal);
+    animation-duration: var(--fa-animation-duration,1s);
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,ease-in-out);
+}
+
+.if-shake {
+    animation-name: if-shake;
+    animation-duration: var(--fa-animation-duration,1s);
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,linear);
+}
+
+.if-shake,.if-spin {
+    animation-delay: var(--fa-animation-delay,0s);
+    animation-direction: var(--fa-animation-direction,normal);
+}
+
+.if-spin {
+    animation-name: if-spin;
+    animation-duration: var(--fa-animation-duration,2s);
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,linear);
+}
+
+.if-spin-reverse {
+    --fa-animation-direction: reverse;
+}
+
+.if-pulse,.if-spin-pulse {
+    animation-name: if-spin;
+    animation-direction: var(--fa-animation-direction,normal);
+    animation-duration: var(--fa-animation-duration,1s);
+    animation-iteration-count: var(--fa-animation-iteration-count,infinite);
+    animation-timing-function: var(--fa-animation-timing,steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .if-beat,.if-beat-fade,.if-bounce,.if-fade,.if-flip,.if-pulse,.if-shake,.if-spin,.if-spin-pulse {
+        animation-delay: -1ms;
+        animation-duration: 1ms;
+        animation-iteration-count: 1;
+        transition-delay: 0s;
+        transition-duration: 0s;
+    }
+}
+
+@keyframes if-beat {
+    0%,90% {
+        transform: scale(1);
+    }
+
+    45% {
+        transform: scale(var(--fa-beat-scale,1.25));
+    }
+}
+
+@keyframes if-bounce {
+    0% {
+        transform: scale(1) translateY(0);
+    }
+
+    10% {
+        transform: scale(var(--fa-bounce-start-scale-x,1.1),var(--fa-bounce-start-scale-y,.9)) translateY(0);
+    }
+
+    30% {
+        transform: scale(var(--fa-bounce-jump-scale-x,.9),var(--fa-bounce-jump-scale-y,1.1)) translateY(var(--fa-bounce-height,-.5em));
+    }
+
+    50% {
+        transform: scale(var(--fa-bounce-land-scale-x,1.05),var(--fa-bounce-land-scale-y,.95)) translateY(0);
+    }
+
+    57% {
+        transform: scale(1) translateY(var(--fa-bounce-rebound,-.125em));
+    }
+
+    64% {
+        transform: scale(1) translateY(0);
+    }
+
+    to {
+        transform: scale(1) translateY(0);
+    }
+}
+
+@keyframes if-fade {
+    50% {
+        opacity: var(--fa-fade-opacity,.4);
+    }
+}
+
+@keyframes if-beat-fade {
+    0%,to {
+        opacity: var(--fa-beat-fade-opacity,.4);
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(var(--fa-beat-fade-scale,1.125));
+    }
+}
+
+@keyframes if-flip {
+    50% {
+        transform: rotate3d(var(--fa-flip-x,0),var(--fa-flip-y,1),var(--fa-flip-z,0),var(--fa-flip-angle,-180deg));
+    }
+}
+
+@keyframes if-shake {
+    0% {
+        transform: rotate(-15deg);
+    }
+
+    4% {
+        transform: rotate(15deg);
+    }
+
+    8%,24% {
+        transform: rotate(-18deg);
+    }
+
+    12%,28% {
+        transform: rotate(18deg);
+    }
+
+    16% {
+        transform: rotate(-22deg);
+    }
+
+    20% {
+        transform: rotate(22deg);
+    }
+
+    32% {
+        transform: rotate(-12deg);
+    }
+
+    36% {
+        transform: rotate(12deg);
+    }
+
+    40%,to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes if-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
