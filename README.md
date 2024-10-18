@@ -1,3 +1,4 @@
+![Accede a la web y busca el icono perfecto para tu proyecto]([mi-imagen.png](https://icons.ronaldbit.com/assets/img/if.png))
 
 # Icon Font Project
 
@@ -20,14 +21,14 @@ Para usar este proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/icon-font-project.git
+   git clone https://github.com/ronaldbit/if.git
    ```
 
    O descarga los archivos como ZIP desde el repositorio.
 
 2. Entra en la carpeta del proyecto:
    ```bash
-   cd icon-font-project
+   cd if
    ```
 
 3. Agrega los archivos CSS a tu proyecto. Puedes copiarlos a tu carpeta de estilos o usarlos desde la carpeta del repositorio.
@@ -44,7 +45,7 @@ Agrega las siguientes líneas en la sección `<head>` de tu archivo HTML:
 Una vez que hayas incluido los archivos CSS, puedes comenzar a usar los iconos en tu HTML. Por ejemplo, para mostrar un icono, utiliza el siguiente código:
 
 ```html
-<i class="ifs if-at if-2xl"></i> <!-- Esto mostrará el icono deseado -->
+<i class="ifs if-icons"></i> <!-- Esto mostrará el icono deseado -->
 ```
 
 ### Ejemplo:
