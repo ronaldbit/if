@@ -84,7 +84,7 @@ Incluso agregar animaciónes. Por ejemplo:
 <i class="ifs if-user-tie if-beat-fade"></i>
 ```
 
-Para ver mas personalizaciones puedes visitar la ![web](https://icons.ronaldbit.com)
+Para ver más personalizaciones, puedes visitar la [web](https://icons.ronaldbit.com).
 
 ## Contribuciones
 
