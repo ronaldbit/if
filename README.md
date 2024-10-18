@@ -1,8 +1,8 @@
-![Accede a la web y busca el icono perfecto para tu proyecto]([mi-imagen.png](https://icons.ronaldbit.com/assets/img/if.png))
-
 # Icon Font Project
 
 Un proyecto de iconos de fuente que proporciona una colección de iconos personalizables y escalables para tus aplicaciones web.
+
+![Accede a la web y busca el icono perfecto para tu proyecto](https://icons.ronaldbit.com/assets/img/if.png)
 
 ## Licencia
 
@@ -62,21 +62,29 @@ Una vez que hayas incluido los archivos CSS, puedes comenzar a usar los iconos e
 </head>
 <body>
     <h1>Ejemplo de Uso de Iconos de Fuente</h1>
-    <i class="ifs if-at if-2xl"></i> <!-- Icono de usuario -->
+    <i class="ifs if-user-tie"></i> <!-- Icono de usuario -->
 </body>
 </html>
 ```
 
 ## Personalización
 
-Puedes personalizar el tamaño y color de los iconos utilizando CSS. Por ejemplo:
+Puedes personalizar el tamaño y color de los iconos añadiendo clases. Por ejemplo:
 
 ```css
-.ifs {
-    font-size: 24px; /* Cambia el tamaño del icono */
-    color: #000;     /* Cambia el color del icono */
-}
+<i class="ifs if-user-tie if-2xl"></i>
+<i class="ifs if-user-tie if-red"></i>
+<i class="ifs if-user-tie if-flip-vertical"></i>
 ```
+
+Incluso agregar animaciónes. Por ejemplo:
+
+```css
+<i class="ifs if-user-tie if-fade"></i>
+<i class="ifs if-user-tie if-beat-fade"></i>
+```
+
+Para ver mas personalizaciones puedes visitar la ![web](https://icons.ronaldbit.com)
 
 ## Contribuciones
 
