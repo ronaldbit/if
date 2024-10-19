@@ -39,7 +39,7 @@ Agrega las siguientes líneas en la sección `<head>` de tu archivo HTML:
 
 ```html
 <link rel="stylesheet" href="if.css">
-<link rel="stylesheet" href="if-all.css">
+<link rel="stylesheet" href="if-classic.css">
 ```
 
 Una vez que hayas incluido los archivos CSS, puedes comenzar a usar los iconos en tu HTML. Por ejemplo, para mostrar un icono, utiliza el siguiente código:
