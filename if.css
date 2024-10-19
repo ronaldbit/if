@@ -105,13 +105,6 @@
     line-height: 1;
     text-rendering: auto;
 }
-
-   
-.if-brands,.ifb {
-    font-family: "Icons Font Brands";
-    font-weight: 400;
-}
-
 .if-regular, .ifr {
     font-family: "Icons Font Regular";
     font-weight: 400;
