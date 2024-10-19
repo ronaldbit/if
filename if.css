@@ -330,7 +330,7 @@
 
 .if-shake,.if-spin {
     animation-delay: 0s;
-    animation-direction: normal;
+    animation-direction: var(--if-animation-direction, normal);
 }
 
 .if-spin {
@@ -341,7 +341,7 @@
 }
 
 .if-spin-reverse {
-    --fa-animation-direction: reverse;
+    --if-animation-direction: reverse;
 }
 
 .if-pulse,.if-spin-pulse {
