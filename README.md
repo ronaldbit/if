@@ -2,7 +2,7 @@
 
 Un proyecto de iconos de fuente que proporciona una colección de iconos personalizables y escalables para tus aplicaciones web.
 
-![Accede a la web y busca el icono perfecto para tu proyecto](https://icons.ronaldbit.com/assets/img/if.png)
+![Accede a la web y busca el icono perfecto para tu proyecto](https://icons.ronaldbit.com/assets/img/ifont.png)
 
 
 ## Características
