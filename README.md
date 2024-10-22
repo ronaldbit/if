@@ -4,9 +4,6 @@ Un proyecto de iconos de fuente que proporciona una colección de iconos persona
 
 ![Accede a la web y busca el icono perfecto para tu proyecto](https://icons.ronaldbit.com/assets/img/if.png)
 
-## Licencia
-
-Este proyecto está licenciado bajo la **Licencia Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)**. Esto significa que puedes usar, modificar y compartir el proyecto, pero no puedes usarlo con fines comerciales. Siempre debes dar crédito al autor original.
 
 ## Características
 
@@ -106,3 +103,7 @@ Las contribuciones son bienvenidas. Si deseas contribuir a este proyecto, sigue 
 Si tienes alguna pregunta o necesitas más información, no dudes en contactarme:
 
 - Correo: hola@ronaldbit.com
+
+## Licencia
+
+Este proyecto está licenciado bajo la **Licencia Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)**. Esto significa que puedes usar, modificar y compartir el proyecto, pero no puedes usarlo con fines comerciales. Siempre debes dar crédito al autor original.
